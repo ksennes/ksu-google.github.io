@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5F6368;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+    font-size: 13px;
+}
+
+.nav div {
+    margin-left: 18px;
+}
+
+.show-apps-img {
+    width: 16px;
+    height: 16px;
+}
+
+.user-avatar-img  img{
+    border-radius: 50%;
+}
+
+.main-section {
+    height: calc(100vh - 142px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px 16px 0 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: #ffffff;
+    height: 44px;
+    width: 482px;
+}
+
+.search-input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.search-input input {
+    height: 34px;
+    width: 85%;
+    margin-bottom: 4px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-img {
+    width: 20px;
+}
+
+.google-mic-img {
+    width: 20px;
+}
+
+.search-buttons {
+    margin: 30px auto;
+}
+
+.search-buttons button {
+    padding: 0 16px;
+    margin: 0 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.search-buttons button:hover {
+    cursor: pointer;
+    background-color: gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.homepage-lenguages {
+    font-size: 13px;
+    color: #222222;
+}
+
+.homepage-lenguages>a {
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+.footer>div {
+    height: 40px;
+    padding: 0 30px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: #5F6368;
+    font-size: 14px;
+    line-height: 40px;
+} 
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav a {
+    margin-left: 30px;
+}
+
+.footer a:first-child {
+    margin-left: 0;
+}
